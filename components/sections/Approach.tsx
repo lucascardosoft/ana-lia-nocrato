@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
 import { approach, images } from "@/content/site";
+import { withBasePath } from "@/lib/basePath";
 
 export function Approach() {
   return (
@@ -28,7 +29,7 @@ export function Approach() {
 
         <RevealOnScroll className="mx-auto w-full max-w-lg overflow-hidden rounded-xl shadow-soft-lg">
           <Image
-            src={images.about2.src}
+            src={withBasePath(images.about2.src)}
             alt={images.about2.alt}
             width={2035}
             height={1419}

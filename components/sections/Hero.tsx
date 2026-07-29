@@ -6,6 +6,7 @@ import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { professional, images, whatsappLink, whatsappMessages } from "@/content/site";
+import { withBasePath } from "@/lib/basePath";
 
 export function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -74,7 +75,7 @@ export function Hero() {
           className="order-1 mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-xl shadow-soft-lg lg:order-2 lg:max-w-none"
         >
           <Image
-            src={images.hero.src}
+            src={withBasePath(images.hero.src)}
             alt={images.hero.alt}
             width={1707}
             height={2380}
