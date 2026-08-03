@@ -13,7 +13,7 @@ export function Specialties() {
           <SectionHeading
             eyebrow="Especialidades"
             title="Como posso te ajudar"
-            subtitle="Cada processo terapêutico é único — estas são algumas das áreas em que costumamos trabalhar juntas."
+            subtitle="Cada processo terapêutico é único: estas são algumas das áreas em que costumamos trabalhar juntas."
             id="especialidades-heading"
           />
         </RevealOnScroll>

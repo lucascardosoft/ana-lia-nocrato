@@ -17,7 +17,7 @@ const fraunces = Fraunces({
 });
 
 const SITE_URL = "https://analiapsicologa.com";
-const TITLE = "Ana Lia Nocrato | Psicóloga em Fortaleza — Terapia Online e Presencial";
+const TITLE = "Ana Lia Nocrato | Psicóloga em Fortaleza | Terapia Online e Presencial";
 const DESCRIPTION =
   "Psicoterapia individual e de casal com Ana Lia Aguiar Nocrato, psicóloga clínica (CRP 11/18220). Atendimento presencial em Fortaleza/CE e online, com foco em ansiedade, relacionamentos, autoestima e saúde mental da mulher.";
 
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "pt_BR",
     url: SITE_URL,
-    siteName: "Ana Lia Nocrato — Psicóloga",
+    siteName: "Ana Lia Nocrato | Psicóloga",
     title: TITLE,
     description: DESCRIPTION,
     images: [{ url: "/images/hero-ana-lia.jpg", width: 1707, height: 2380, alt: "Ana Lia Nocrato, psicóloga" }],

@@ -39,9 +39,8 @@ export function Hero() {
             Psicoterapia para ansiedade, relacionamentos e autoestima
           </h1>
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-warmgray">
-            Atendimento individual e de casal, presencial em Fortaleza ou online, com um olhar
-            acolhedor sobre a sua história — para você construir, no seu tempo, formas mais
-            saudáveis de lidar com a vida.
+            Atendimento para mulheres, presencial em Fortaleza ou online. Um espaço de escuta e
+            acolhimento para construir formas mais saudáveis de lidar consigo mesma e com a vida.
           </p>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
@@ -57,17 +56,6 @@ export function Hero() {
               Conhecer minha abordagem
             </Button>
           </div>
-
-          <dl className="mt-10 flex flex-wrap gap-x-8 gap-y-3 border-t border-ink/10 pt-6 text-sm text-ink-soft">
-            <div>
-              <dt className="inline font-semibold text-ink">Formação: </dt>
-              <dd className="inline">Psicologia — Unifor</dd>
-            </div>
-            <div>
-              <dt className="inline font-semibold text-ink">Modalidades: </dt>
-              <dd className="inline">Presencial e online</dd>
-            </div>
-          </dl>
         </motion.div>
 
         <motion.div

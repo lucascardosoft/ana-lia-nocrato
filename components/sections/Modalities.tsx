@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/Card";
 import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
 import { MapEmbed } from "@/components/ui/MapEmbed";
 import { iconMap } from "@/lib/icons";
-import { modalities, contact } from "@/content/site";
+import { modalities } from "@/content/site";
 
 export function Modalities() {
   return (
@@ -13,7 +13,7 @@ export function Modalities() {
         <RevealOnScroll>
           <SectionHeading
             eyebrow="Modalidades"
-            title="Presencial ou online — você escolhe"
+            title="Presencial ou online: você escolhe"
             id="modalities-heading"
           />
         </RevealOnScroll>
@@ -42,8 +42,6 @@ export function Modalities() {
             );
           })}
         </div>
-
-        <p className="mt-6 text-center text-sm text-warmgray">{contact.address.full}</p>
       </Container>
     </section>
   );

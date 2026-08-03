@@ -60,7 +60,7 @@ export const specialties: Specialty[] = [
     icon: "HeartHandshake",
     title: "Relacionamentos",
     description:
-      "Vínculos afetivos, amorosos, familiares ou de amizade — comunicação mais assertiva e formas mais saudáveis de lidar com conflitos.",
+      "Vínculos afetivos, amorosos, familiares ou de amizade: comunicação mais assertiva e formas mais saudáveis de lidar com conflitos.",
   },
   {
     icon: "Sparkles",
@@ -92,12 +92,12 @@ export const problems = {
   eyebrow: "Talvez você esteja passando por...",
   title: "Se algo disso soa familiar, você não precisa lidar com isso sozinha",
   items: [
-    "Sente uma ansiedade que não passa, mesmo quando, no papel, está tudo bem.",
-    "Tem dificuldade em dizer não e sente que está sempre cedendo espaço para os outros.",
-    "Sua autoestima parece depender demais da aprovação alheia.",
-    "Os relacionamentos ao seu redor parecem sempre desgastantes ou confusos.",
-    "Sente que precisa dar conta de tudo com perfeição, antes mesmo de começar.",
-    "A maternidade trouxe sentimentos novos que você ainda não sabe onde colocar.",
+    "A ansiedade parece acompanhar o seu dia a dia.",
+    "Você se cobra o tempo todo e sente que precisa dar conta de tudo.",
+    "Dizer \"não\" é difícil, e você costuma priorizar as necessidades dos outros.",
+    "Você duvida de si mesma e busca constantemente a validação das pessoas ao seu redor.",
+    "Seus relacionamentos despertam insegurança, medo de desagradar ou dificuldade em colocar limites.",
+    "Você sente que nunca é suficiente, mesmo quando faz o seu melhor.",
   ],
 };
 
@@ -118,7 +118,7 @@ export const howItWorks: HowItWorksStep[] = [
     step: "02",
     title: "Agendamento",
     description:
-      "Combinamos juntas o melhor horário e a modalidade — presencial em Fortaleza ou online.",
+      "Combinamos juntas o melhor horário e a modalidade: presencial em Fortaleza ou online.",
   },
   {
     step: "03",
@@ -134,9 +134,9 @@ export const howItWorks: HowItWorksStep[] = [
   },
   {
     step: "05",
-    title: "Evolução",
+    title: "Alta",
     description:
-      "Com o tempo, o espaçamento entre sessões pode diminuir — quinzenal ou mensal — acompanhando seu processo.",
+      "Com o tempo, o espaçamento entre sessões pode diminuir, passando a ser quinzenal ou mensal, acompanhando seu processo.",
   },
 ];
 
@@ -178,7 +178,7 @@ export const about = {
   title: "Um espaço seguro para você se desenvolver",
   paragraphs: [
     "Olá! Me chamo Ana Lia Aguiar Nocrato, sou psicóloga clínica formada pela Universidade de Fortaleza e atendo como psicoterapeuta com foco na saúde mental da mulher, de forma presencial em Fortaleza e também online.",
-    "Tenho experiência no atendimento de jovens e adultos no tratamento da ansiedade e na mediação clínica de questões como relacionamentos, maternidade e sexualidade.",
+    "Tenho experiência no atendimento de mulheres no tratamento da ansiedade e na mediação clínica de questões como relacionamentos, autoestima e sexualidade.",
     "Meu olhar clínico se baseia na psicologia sócio-histórico-cultural, na qual possuo formação. Acredito que a psicoterapia é um espaço de construção conjunta de desenvolvimento e potencialidades.",
   ],
   invitation: "Vamos juntas?",
@@ -199,7 +199,7 @@ export const approach = {
   eyebrow: "Abordagem terapêutica",
   title: "Psicologia sócio-histórico-cultural",
   paragraphs: [
-    "Meu trabalho visa construir, junto com cada paciente, um espaço de desenvolvimento e um ambiente acolhedor e seguro para o compartilhamento de vivências e dificuldades — em que, juntas, construímos formas de lidar com as questões da vida e refletir sobre o que está acontecendo.",
+    "Meu trabalho visa construir, junto com cada paciente, um espaço de desenvolvimento e um ambiente acolhedor e seguro para o compartilhamento de vivências e dificuldades, em que, juntas, construímos formas de lidar com as questões da vida e refletir sobre o que está acontecendo.",
     "Por meio do meu olhar clínico, busco compreender a pessoa em seu contexto social e cultural, levando em conta suas funções psicológicas dentro da própria história de vida.",
     "Serei auxílio e suporte no seu processo, reconhecendo e construindo junto com você seus próprios recursos e habilidades para permitir mudanças positivas e saudáveis na sua vida.",
   ],

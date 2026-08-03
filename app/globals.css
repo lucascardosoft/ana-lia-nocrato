@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  /* Palette — soft, warm, calm (off-white / sand / sage / terracotta) */
+  /* Palette: soft, warm, calm (off-white / sand / sage / terracotta) */
   --color-cream: #faf7f2;
   --color-cream-warm: #f5f0e8;
   --color-sand: #efe3d3;
@@ -25,6 +25,18 @@
 
   --shadow-soft: 0 4px 24px -6px rgba(46, 42, 38, 0.08);
   --shadow-soft-lg: 0 12px 40px -10px rgba(46, 42, 38, 0.14);
+}
+
+/* Paleta alternativa em teste: rosa extraído do botão real de analiapsicologa.com (#8a6274).
+   Substitui sage e terracotta por uma família única derivada do rosa, mantendo os
+   neutros (cream/sand/ink) intactos para não gerar poluição visual. */
+:root[data-theme="rose"] {
+  --color-sage: #9c7686;
+  --color-sage-dark: #8a6274;
+  --color-sage-light: #f3eaee;
+  --color-terracotta: #b98a98;
+  --color-terracotta-dark: #6e4e5d;
+  --color-terracotta-light: #f3eaee;
 }
 
 @theme inline {

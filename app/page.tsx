@@ -5,7 +5,7 @@ import { Problems } from "@/components/sections/Problems";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { Benefits } from "@/components/sections/Benefits";
 import { About } from "@/components/sections/About";
-import { Education } from "@/components/sections/Education";
+// import { Education } from "@/components/sections/Education"; // oculto: ainda avaliando se mantém
 import { Approach } from "@/components/sections/Approach";
 import { SessionFormat } from "@/components/sections/SessionFormat";
 import { Modalities } from "@/components/sections/Modalities";
@@ -14,6 +14,7 @@ import { FAQ } from "@/components/sections/FAQ";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { Footer } from "@/components/sections/Footer";
 import { WhatsAppFAB } from "@/components/ui/WhatsAppFAB";
+import { ThemeToggle } from "@/components/ui/ThemeToggle";
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
         <HowItWorks />
         <Benefits />
         <About />
-        <Education />
+        {/* <Education /> oculto: ainda avaliando se mantém */}
         <Approach />
         <SessionFormat />
         <Modalities />
@@ -36,6 +37,7 @@ export default function Home() {
       </main>
       <Footer />
       <WhatsAppFAB />
+      <ThemeToggle />
     </>
   );
 }
